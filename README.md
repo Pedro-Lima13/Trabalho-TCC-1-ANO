@@ -29,11 +29,11 @@ estilos3.css   # Estilização da página Sobre Nós (Banners e tipografia)
 Imagens/       # Diretório de armazenamento de fotos dos pratos e logos (imagens diretamente do CHAT GPT)
 
 ## Integrantes (1TW) :
-Enzo Bozelli
-Davi Rodrigues
-Murilo
-Pedro H. Lima
-Gustavo
-Arthur
-Kaique
-Lucas
+Enzo Bozelli, 
+Davi Rodrigues, 
+Murilo, 
+Pedro H. Lima, 
+Gustavo, 
+Arthur, 
+Kaique, 
+Lucas.
