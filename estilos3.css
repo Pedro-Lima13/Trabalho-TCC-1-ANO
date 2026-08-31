@@ -165,3 +165,23 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(0, 140, 69, 0.4);
 }
+
+/* ESTILIZAÇÃO DO BOTÃO DE VOLTAR ESPECÍFICO PARA A TELA SOBRE */
+.btn-voltar-sobre {
+    display: inline-block;
+    background: rgba(205, 33, 42, 0.8);
+    border: 2px solid #CD212A;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.btn-voltar-sobre:hover {
+    background: #008C45;
+    border-color: #008C45;
+    transform: translateY(-2px);
+}
