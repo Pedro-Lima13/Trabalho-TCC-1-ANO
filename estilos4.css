@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
+
+body {
+    background-color: #FAFAFA;
+    color: #2C2C2C;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #8B1E1E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.lista {
+    max-width: 650px;
+    width: 90%;
+    margin: -2rem auto 3rem auto;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.lista hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.08), transparent);
+    margin: 1.5rem 0;
+}
+
+.email, .telefone, .Instagram {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.email:hover, .telefone:hover, .Instagram:hover {
+    background-color: rgba(139, 30, 30, 0.03);
+    transform: translateX(5px);
+}
+
+.lista i {
+    font-size: 2rem;
+    color: #8B1E1E;
+    background-color: rgba(139, 30, 30, 0.08);
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.lista span {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.lista h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2C2C2C;
+    margin: 0;
+    word-break: break-word;
+}
+
+footer.direitos {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #1A1A1A;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
