@@ -35,7 +35,6 @@ header {
   display: flex;
 }
 
-/* SIDEBAR */
 .sidebar {
   width: 220px;
   background: #045f1c;
@@ -63,13 +62,12 @@ header {
   font-weight: bold;
 }
 
-/* MAIN */
 main {
   flex: 1;
   padding: 20px;
 }
 
-/* BANNER */
+
 .banner {
   background: white;
   padding: 30px;
@@ -80,7 +78,7 @@ main {
   text-align: center;
 }
 
-/* CONTEÚDO */
+
 .conteudo {
   background: rgb(171, 190, 173);
   padding: 30px;
@@ -115,7 +113,7 @@ p {
   text-align: center;
 }
 
-/* GRID */
+
 .pratos-container,
 .bebidas-container,
 .doces-container {
@@ -126,7 +124,7 @@ p {
   margin: 20px auto;
 }
 
-/* CARD */
+
 figure {
   width: 100%;
   background: white;
@@ -143,7 +141,7 @@ figure:hover {
   transform: scale(1.05);
 }
 
-/* 🔥 IMAGEM PADRONIZADA */
+
 figure img {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -175,7 +173,7 @@ figcaption strong {
   margin-top: 8px;
 }
 
-/* FOOTER */
+
 footer {
   background: #222;
   color: white;
